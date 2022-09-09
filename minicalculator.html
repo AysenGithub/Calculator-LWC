@@ -1,0 +1,36 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 09-08-2022
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="slds-box slds-theme_shade">
+        <lightning-input type="number" name="input" label="Number 1" onchange={HandleNumberOneChange} value={firstNumber}>
+        </lightning-input>
+
+        <lightning-input type="number" name="input" label="Number 2" onchange={HandleNumberTwoChange} value={secondNumber}>
+        </lightning-input>
+
+        <b>Output value is:</b>
+        <p>{resultValue}</p>
+
+    </div>
+    
+    <div class="slds-box slds-theme_shade">
+        <lightning-button label="Addition"  onclick={addition} class="slds-m-left_x-small">
+        </lightning-button>
+
+       <lightning-button label="Multification"  onclick={multification} class="slds-m-left_x-small">
+        </lightning-button>
+
+        <lightning-button label="Subtraction"  onclick={subtraction} class="slds-m-left_x-small">
+        </lightning-button>
+
+        <lightning-button label="Division"  onclick={division} class="slds-m-left_x-small">
+        </lightning-button>
+
+      </div>
+    
+</template>
