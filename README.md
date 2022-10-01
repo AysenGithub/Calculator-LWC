@@ -1,2 +1,2 @@
-# MiniCalculator-LWC
-Mini Calculator -LWC-
+# Calculator-LWC
+Calculator -LWC-
